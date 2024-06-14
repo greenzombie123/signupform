@@ -1,0 +1,28 @@
+body{
+    display: flex;
+}
+
+.backgroundImage{
+    position: relative;
+    height: 100vh;
+    width: 35%;
+    background-image: url("./assets/background.jpg");
+    background-size: 100% 100%;
+}
+
+.formContainer{
+    height: 100vh;
+    width: 65%;
+    background-color: rgb(244, 244, 244);
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    background-color: rgba(43, 81, 20, 0.612);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+}
