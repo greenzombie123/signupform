@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,56 @@
     <link rel="stylesheet" href="./modermNormalize.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="backgroundImage">
-        <div class="logo">WOOF</div>
+        <div class="logo">
+            <p class="logoText">WOOF</p>
+        </div>
     </div>
-    <div class="formContainer"></div>
+    <form action="" class="formContainer">
+        <div class="info">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want this.</p>
+        </div>
+        <div class="inputs">
+            <h3>Let's do this!</h3>
+            <fieldset class="inputContainers">
+                <div class="inputContainer">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+                <div class="inputContainer">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <div class="inputContainer">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="inputContainer">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                </div>
+                <div class="inputContainer">
+                    <label for="passWord">Password</label>
+                    <input type="password" name="passWord" id="passWord" pattern="a" required>
+                </div>
+                <div class="inputContainer">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" >
+                </div>
+            </fieldset>
+        </div>
+        <div class="buttonContainer">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="./">Log In</a> </p>
+
+        </div>
+    </form>
 </body>
+
 </html>
 
 <!-- Photo by <a href="https://unsplash.com/@jeancarloemer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jean Carlo Emer</a> on <a href="https://unsplash.com/photos/a-narrow-city-street-with-a-pedestrian-crossing-sign--woXxRTDdkY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
